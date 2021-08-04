@@ -1,0 +1,104 @@
+html {
+  scroll-behavior: smooth;
+}
+p {
+  border: 2px solid black;
+  background-color: #99ff99;
+  width: 97%;
+  height: 95%;
+  margin-right: auto;
+  margin-left: auto;
+  
+  color: black;
+}
+* {
+  box-sizing: border-box;
+}
+
+#head{
+  
+   float: right;  
+   position: relative;
+   text-align: center;
+   background: lightblue;
+   width: 60px;
+   
+}
+
+
+///////////////////////////////////
+body {
+  font-size: 16px;
+  color: #000000;
+  background-color: #ffffff;
+}
+
+#header-nav {
+  background-color: #559e69;
+  border-radius: 0;
+  border: 0;
+}
+
+.navbar-brand {
+  padding-top: 25px;
+}
+
+.navbar-brand h1 {
+  color: #ffff;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 3px;
+  line-height: .2;
+}
+
+#nav-list {
+  margin-top: 100px;
+  padding-right: 40%;
+}
+#nav-list a {
+  color: #ffffff;
+  text-align: center;
+}
+#nav-list a:hover {
+  background:  #72e0d0 ;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+
+
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #ffffff;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  .navbar-brand {
+    padding-top: 10px;
+    height: 80px;
+  }
+  .navbar-brand h1 { 
+    padding-top: 10px;
+    font-size: 5vw; 
+  }
+  .navbar-brand p { 
+    font-size: .6em;
+    margin-top: 12px;
+  }
+  .navbar-brand p img {
+    height: 20px;
+  }
+
+  #collapsable-nav a { 
+    font-size: 1.2em;
+  }
+  #collapsable-nav a span {
+    font-size: 1em;
+    margin-right: 15px;
+  }
